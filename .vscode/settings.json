@@ -48,5 +48,6 @@
         "**/build": true,
         "**/install": true,
         "**/log": true
-    }
+    },
+    "ros.distro": "foxy"
 }
