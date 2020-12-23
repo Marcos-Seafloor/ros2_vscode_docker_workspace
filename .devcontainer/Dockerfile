@@ -1,4 +1,4 @@
-FROM athackst/ros2:foxy-dev 
+FROM athackst/ros:melodic-dev 
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
