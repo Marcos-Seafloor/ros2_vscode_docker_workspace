@@ -6,5 +6,5 @@
 repositories:
   examples:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: foxy
+    url: https://github.com/ouster-lidar/ouster_example
+    version: master

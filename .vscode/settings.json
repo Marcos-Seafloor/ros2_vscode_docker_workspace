@@ -49,5 +49,6 @@
         "**/install": true,
         "**/log": true
     },
-    "ros.distro": "melodic"
+    "ros.distro": "melodic",
+    "python.pythonPath": "/usr/bin/python"
 }
