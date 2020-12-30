@@ -28,21 +28,3 @@ jobs:
       - name: "Test"
         run: |
           colcon test
-  lint:
-    name: ament_${{ matrix.linter }}
-    runs-on: ubuntu-latest
-    container: athackst/ros:melodic-dev
-    strategy:
-      fail-fast: false
-      matrix:
-          linter: [cppcheck, cpplint, uncrustify, lint_cmake, xmllint, flake8, pep257]
-    steps:
-      - uses: actions/checkout@v2
-      - name: "Get workspace"
-        run: |
-          if [ -f src/ros1.repos ]; then
-            vcs import --skip-existing < src/ros1.repos src
-          fi
-      - name: "run linter"
-        run: |
-          ament_${{ matrix.linter }} src/
