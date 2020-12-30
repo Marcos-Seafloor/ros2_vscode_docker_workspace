@@ -8,6 +8,7 @@ RUN apt-get update \
     python-rosinstall-generator \
     python-vcstool \
     python-rosinstall \
+    python3-colcon-common-extensions \
     build-essential \
 # Clean up
     && apt-get autoremove -y \
