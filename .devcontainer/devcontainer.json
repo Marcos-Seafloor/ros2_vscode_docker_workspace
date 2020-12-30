@@ -25,7 +25,9 @@
 		"smilerobotics.urdf",
 		"streetsidesoftware.code-spell-checker",
 		"twxs.cmake",
-		"shan.code-settings-sync",
-		"yzhang.markdown-all-in-one"
+		"yzhang.markdown-all-in-one",
+		"aaron-bond.better-comments",
+		"oderwat.indent-rainbow",
+		"2gua.rainbow-brackets"
 	]
 }
